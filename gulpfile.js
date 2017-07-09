@@ -11,7 +11,7 @@ gulp.task('serve', function(){
     }
   });
 
-  gulp.watch("scss/**/*.scss", ['sass']);
+  gulp.watch("scss/**.scss", ['sass']);
   gulp.watch("public/*").on('change', browserSync.reload);
 });
 
@@ -23,4 +23,4 @@ gulp.task('sass', function () {
     .pipe(browserSync.stream());
 });
 
-gulp.task('default', ['serve', 'sass']);
+gulp.task('default', ['sass']);
