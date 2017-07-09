@@ -1,7 +1,44 @@
 @media screen and (min-width : 480px){
-  body{
-    background-color: orange;
-  }
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+}
+
+#header {
+  height : 60px;
+}
+#nav,
+#footer {
+  height: 30px;
+}
+
+#main {
+  flex: 1;
+}
+
+body {
+  margin: 0;
+}
+
+#header {
+  background-color: lightgreen;
+}
+
+#nav {
+  background-color: lightgrey;
+}
+
+#main {
+  background-color: coral;
+}
+
+#footer {
+  background-color: lightgrey;
+  color:white;
+}
 }
 
 @media screen and (min-width : 768px){
@@ -15,7 +52,3 @@
     background-color: lightgreen;
   }
 }
-
-/* body {
- background : url(../assets/bg.jpg);
-} */
