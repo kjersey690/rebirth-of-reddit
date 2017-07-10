@@ -1,6 +1,6 @@
 /* jshint esversion: 6 */
 
-const mainContainer = document.getElementById('main');
+/*const mainContainer = document.getElementById('main');
 
 let redditReq = new XMLHttpRequest();
 function getReddit () {
@@ -9,4 +9,4 @@ function getReddit () {
 }
 redditReq.addEventListener('load', getReddit);
 redditReq.open('GET', 'https://www.reddit.com/r/Tesla.json', true);
-redditReq.send();
+redditReq.send();*/
