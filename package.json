@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/IanBovard/rebirth-of-reddit/issues"
   },
-  "homepage": "https://github.com/IanBovard/rebirth-of-reddit#readme"
+  "homepage": "https://github.com/IanBovard/rebirth-of-reddit#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
 }
